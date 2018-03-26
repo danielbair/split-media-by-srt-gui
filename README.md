@@ -1,19 +1,18 @@
-# electron-boilerplate
+# Description
+Split an audio or video file by using a srt timing file.
 
-A minimalistic boilerplate for [Electron runtime](http://electron.atom.io). Tested on Windows, macOS and Linux.  
+# Requirements
+[NodeJS](https://nodejs.org/en/)  
+[FFmpeg](https://www.ffmpeg.org/download.html)
+You will need to have ffmpeg available in your system path. The easiest way to do this is to install the [aeneas tools installer](https://github.com/sillsdev/aeneas-installer/releases) which includes ffmpeg.
 
-This project contains only bare minimum of dependencies, to provide you with nice development environment. Doesn't impose on you any frontend technologies, so you can pick your favourite.
-
-# Quick start
-
-Make sure you have [Node.js](https://nodejs.org) installed, then type the following commands known to every Node developer...
-```
-git clone https://github.com/szwacz/electron-boilerplate.git
-cd electron-boilerplate
+# Installation
+Clone or download this repository.  
+Then in a terminal do the following.
+```bash
+cd split-media-by-srt  
 npm install
-npm start
 ```
-...and you have a running desktop application on your screen.
 
 # Structure of the project
 
