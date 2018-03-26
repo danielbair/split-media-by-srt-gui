@@ -10,7 +10,7 @@ You will need to have ffmpeg available in your system path. The easiest way to d
 Clone or download this repository.  
 Then in a terminal do the following.
 ```bash
-cd split-media-by-srt  
+cd split-media-by-srt-gui 
 npm install
 ```
 
