@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: resources
+appId: com.danielbair.split-media-by-srt
+files:
+  - app/**/*
+  - node_modules/**/*
+  - package.json
+publish: null
+electronVersion: 1.7.9

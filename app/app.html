@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Split Media by SRT GUI</title>
+</head>
+<body>
+
+  <div id="app" class="container" style="display: none;">
+    <h1 id="greet"></h1>
+    <p>
+      App running on a <strong id="os"></strong> machine.
+    </p>
+    <p>
+      App author: <strong id="author"></strong>
+    </p>
+    <p>
+      App Version: <strong id="version"></strong>
+    </p>
+    <p>
+      Electron version: <strong id="electron-version"></strong>
+    </p>
+    <p>
+      Environment: <strong id="env"></strong>
+    </p>
+    <div class="app-controls">
+	<p>
+            <button class="app-button" id="select-src-file">Select Media File</button><br>
+            <span class="app-response" id="selected-src-file"></span>
+	</p>
+	<p>
+            <button class="app-button" id="select-srt-file">Select SRT File</button><br>
+            <span class="app-response" id="selected-srt-file"></span>
+	</p>
+	<p>
+            <button class="app-button" id="select-out-folder">Select Output Folder</button><br>
+            <span class="app-response" id="selected-out-folder"></span>
+	</p>
+	<p>Select Output Format: 
+            <select class="app-button" id="select-out-format">
+	        <option value=""></option>
+	        <option value="aac">aac</option>
+	        <option value="mp3">mp3</option>
+	        <option value="ogg">ogg</option>
+	        <option value="wav">wav</option>
+	    </select>
+	</p>
+	<p>
+            <button class="app-button" id="start-processing">Start Processing</button><br>
+            <span class="app-response" id="processing-status"></span>
+	</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
