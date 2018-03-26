@@ -54,6 +54,7 @@ typings/
 *.zip
 *.dmg
 *.dmg*
+*.app
 
 # Yarn Integrity file
 .yarn-integrity
