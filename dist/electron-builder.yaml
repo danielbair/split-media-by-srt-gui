@@ -7,4 +7,4 @@ files:
   - node_modules/**/*
   - package.json
 publish: null
-electronVersion: 1.7.9
+electronVersion: 1.7.11
