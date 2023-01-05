@@ -53,10 +53,10 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "^8.3.0",
     "babel-plugin-transform-object-rest-spread": "^7.0.0-beta.3",
     "chai": "^4.2.0",
-    "css-loader": "^2.1.1",
+    "css-loader": "^6.7.3",
     "electron": "^18.3.7",
     "electron-builder": "^20.44.4",
     "electron-mocha": "^10.0.0",
@@ -64,7 +64,7 @@
     "mocha": "^8.2.1",
     "source-map-support": "^0.5.19",
     "spectron": "^13.0.0",
-    "style-loader": "^0.19.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.10.0",
     "webpack-merge": "^4.2.2",
     "webpack-node-externals": "^1.7.2"
